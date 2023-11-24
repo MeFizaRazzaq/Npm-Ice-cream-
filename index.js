@@ -1,22 +1,5 @@
 console.clear();
-/*
-//callBack Function
-function makePizza(Flavour,callback){
-    console.log("Order Recieved");
-    console.log("Pizaa Preparing...");
-    setTimeout(function(){
-        callback(Flavour +" pizza")
-    },1000)
-}
 
-function handlePizza(pizza){
-    console.log("Eating " + pizza)
-}
-console.log("Pizza Ordered");
-makePizza("Tikka",handlePizza);
-*/
-
-//CALL BACK FUNCTION
 
 //storing data
 let stock={
@@ -25,29 +8,6 @@ let stock={
     Holder :["Cone","Cup","Stick"],
     Topping:["Chocolate","peanuts","Sprinkles"],
 }
-
-//arrow functions
-
-let order =(fruit,CallBack_Production)=>{
-    //console.log("Order placed,call Production");
-    setTimeout(function(){
-        console.log(`${stock.Fruits[fruit]} was selected`)
-    },2000)
-    CallBack_Production();
-};
-
-let production=()=>{
-    setTimeout(()=>{
-        console.log("Production has strted");
-        setTimeout(()=>{
-            console.log(`Fruit is chopped`);
-        },2000)
-    },0)
-    
-};
-
-//order(0,production);
-
 
 //PROMISES
 let shop_open=true;
