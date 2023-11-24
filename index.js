@@ -26,7 +26,6 @@ let Order=(time,work)=>{
     })
 }
 
-//Order(2000, ()=>console.log(`${stock.Fruits[0]} was selected`))
 // step 1
 Order(2000,()=>console.log(`${stock.Fruits[0]} was selected`))
 
