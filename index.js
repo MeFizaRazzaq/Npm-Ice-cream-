@@ -66,3 +66,5 @@ Order(2000,()=>console.log(`${stock.Fruits[0]} was selected`))
 .finally(()=>{
     console.log("End of the Day")
 })
+//Exporting the order function
+module.exports=Order;
