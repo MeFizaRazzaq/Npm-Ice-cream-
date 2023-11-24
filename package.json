@@ -1,0 +1,19 @@
+{
+  "name": "ice-cream-shop1",
+  "version": "1.0.0",
+  "description": "This package displays the step from ordering a ice-cream to order completeio and also show the end of day.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeFizaRazzaq/Npm-Ice-cream-.git"
+  },
+  "author": "Fiza Razzaq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeFizaRazzaq/Npm-Ice-cream-/issues"
+  },
+  "homepage": "https://github.com/MeFizaRazzaq/Npm-Ice-cream-#readme"
+}
